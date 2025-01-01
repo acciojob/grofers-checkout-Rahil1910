@@ -12,10 +12,6 @@ const getSum = () => {
 	const table = document.querySelector('table');
 	const row = document.createElement('tr');
 	
-	const cell1 = document.createElement('td');
-	cell1.id = 'ans';
-	cell1.textContent = 'Total Price';
-	row.appendChild(cell1);
 	
 	const cell2 = document.createElement('td');
 	cell2.id = 'ans';
